@@ -16,4 +16,4 @@ selenium-debug.log
 
 docs/.vuepress/dist
 docs/docs.json
-dist/
+# dist/
