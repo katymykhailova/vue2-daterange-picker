@@ -71,6 +71,7 @@
               :locale-data="locale"
               :ranges="ranges"
               :selected="{ startDate: start, endDate: end }"
+              :hide-ranges="hideCustomRanges"
             ></calendar-ranges>
           </slot>
 
@@ -449,7 +450,15 @@ export default {
      */
     readonly: {
       type: Boolean
-    }
+    },
+    /**
+     * If set to false and you have clicked the "Custom ranges"
+     * then then the calendars are shown and the ranges are hidden.
+     */
+    alwaysShowRanges: {
+      type: Boolean,
+      default: false
+    },
   },
   data () {
     //copy locale data object
@@ -474,6 +483,7 @@ export default {
     data.open = false
     //When alwaysShowCalendars = false and custom range is clicked
     data.showCustomRangeCalendars = false
+    data.hideCustomRanges = false
 
     // update day names order to firstDay
     if (data.locale.firstDay !== 0) {
@@ -759,7 +769,7 @@ export default {
     pickerStyles () {
       return {
         'show-calendar': this.open || this.opens === 'inline',
-        'show-ranges': this.showRanges,
+        'show-ranges': this.showRanges && !this.hideCustomRanges,
         'show-weeknumbers': this.showWeekNumbers,
         single: this.singleDatePicker,
         ['opens' + this.opens]: true,
@@ -826,7 +836,7 @@ export default {
             value ? document.body.addEventListener('click', this.clickAway) : document.body.removeEventListener('click', this.clickAway)
             value ? document.addEventListener('keydown', this.handleEscape) : document.removeEventListener('keydown', this.handleEscape)
 
-            if (!this.alwaysShowCalendars && this.ranges && this.start && this.end) {
+            if (!this.alwaysShowCalendars && this.ranges) {
               this.showCustomRangeCalendars = !Object.keys(this.ranges)
                 .find(key => this.$dateUtil.isSame(this.start, this.ranges[key][0], 'date') && this.$dateUtil.isSame(this.end, this.ranges[key][1], 'date'))
             }
@@ -834,6 +844,11 @@ export default {
         }
       },
       immediate: true
+    },
+    showCustomRangeCalendars(){
+      if (!this.alwaysShowRanges) {
+        this.hideCustomRanges = this.showCustomRangeCalendars
+      }
     }
   }
 }

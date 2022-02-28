@@ -1,5 +1,5 @@
 <template>
-    <div class="ranges">
+    <div class="ranges" v-show="!hideRanges">
         <ul v-if="ranges">
             <li
                     v-for="range in listedRanges"
@@ -32,6 +32,10 @@
       selected: Object,
       localeData: Object,
       alwaysShowCalendars: Boolean,
+      hideRanges: {
+      type: Boolean,
+      default: false,
+    },
     },
     data () {
       return {
