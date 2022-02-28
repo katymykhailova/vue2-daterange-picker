@@ -1762,6 +1762,17 @@ module.exports = function (originalArray, length) {
 
 /***/ }),
 
+/***/ "6767":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_0dcaa76b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b8c4");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_0dcaa76b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_0dcaa76b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "68ee":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1894,13 +1905,6 @@ module.exports = {
   getterFor: getterFor
 };
 
-
-/***/ }),
-
-/***/ "6e59":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -2860,17 +2864,6 @@ module.exports = DESCRIPTORS ? function (object, key, value) {
   object[key] = value;
   return object;
 };
-
-
-/***/ }),
-
-/***/ "9177":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_2c37e05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6e59");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_2c37e05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DateRangePicker_vue_vue_type_style_index_1_id_2c37e05c_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -4030,6 +4023,13 @@ module.exports = {
 
 /***/ }),
 
+/***/ "b8c4":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "b980":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5169,12 +5169,12 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6df138b9-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DateRangePicker.vue?vue&type=template&id=2c37e05c&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"6df138b9-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/DateRangePicker.vue?vue&type=template&id=0dcaa76b&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vue-daterange-picker",class:{ inline: _vm.opens === 'inline' }},[_c('div',{ref:"toggle",class:_vm.controlContainerClass,on:{"click":_vm.onClickPicker}},[_vm._t("input",function(){return [_c('i',{staticClass:"glyphicon glyphicon-calendar fa fa-calendar"}),_vm._v("  "),_c('span',[_vm._v(_vm._s(_vm.rangeText))]),_c('b',{staticClass:"caret"})]},{"startDate":_vm.start,"endDate":_vm.end,"ranges":_vm.ranges,"rangeText":_vm.rangeText})],2),_c('transition',{attrs:{"name":"slide-fade","mode":"out-in"}},[(_vm.open || _vm.opens === 'inline')?_c('div',{directives:[{name:"append-to-body",rawName:"v-append-to-body"}],ref:"dropdown",staticClass:"daterangepicker ltr",class:_vm.pickerStyles},[_vm._t("header",null,{"rangeText":_vm.rangeText,"locale":_vm.locale,"clickCancel":_vm.clickCancel,"clickApply":_vm.clickedApply,"in_selection":_vm.in_selection,"autoApply":_vm.autoApply}),_c('div',{staticClass:"calendars"},[(_vm.showRanges)?_vm._t("ranges",function(){return [_c('calendar-ranges',{attrs:{"always-show-calendars":_vm.alwaysShowCalendars,"locale-data":_vm.locale,"ranges":_vm.ranges,"selected":{ startDate: _vm.start, endDate: _vm.end },"hide-ranges":_vm.hideCustomRanges},on:{"clickRange":_vm.clickRange,"showCustomRange":function($event){_vm.showCustomRangeCalendars=true}}})]},{"startDate":_vm.start,"endDate":_vm.end,"ranges":_vm.ranges,"clickRange":_vm.clickRange}):_vm._e(),(_vm.showCalendars)?_c('div',{staticClass:"calendars-container"},[_c('div',{staticClass:"drp-calendar col left",class:{single: _vm.singleDatePicker}},[(false)?undefined:_vm._e(),_c('div',{staticClass:"calendar-table"},[_c('calendar',{attrs:{"monthDate":_vm.monthDate,"locale-data":_vm.locale,"start":_vm.start,"end":_vm.end,"minDate":_vm.min,"maxDate":_vm.max,"show-dropdowns":_vm.showDropdowns,"date-format":_vm.dateFormatFn,"showWeekNumbers":_vm.showWeekNumbers},on:{"change-month":_vm.changeLeftMonth,"dateClick":_vm.dateClick,"hoverDate":_vm.hoverDate},scopedSlots:_vm._u([{key:"date-slot",fn:function(data){return _vm._t("date",null,null,data)}}],null,true)})],1),(_vm.timePicker && _vm.start)?_c('calendar-time',{attrs:{"miniute-increment":_vm.timePickerIncrement,"hour24":_vm.timePicker24Hour,"second-picker":_vm.timePickerSeconds,"current-time":_vm.start,"readonly":_vm.readonly},on:{"update":_vm.onUpdateStartTime}}):_vm._e()],1),(!_vm.singleDatePicker)?_c('div',{staticClass:"drp-calendar col right"},[(false)?undefined:_vm._e(),_c('div',{staticClass:"calendar-table"},[_c('calendar',{attrs:{"monthDate":_vm.nextMonthDate,"locale-data":_vm.locale,"start":_vm.start,"end":_vm.end,"minDate":_vm.min,"maxDate":_vm.max,"show-dropdowns":_vm.showDropdowns,"date-format":_vm.dateFormatFn,"showWeekNumbers":_vm.showWeekNumbers},on:{"change-month":_vm.changeRightMonth,"dateClick":_vm.dateClick,"hoverDate":_vm.hoverDate},scopedSlots:_vm._u([{key:"date-slot",fn:function(data){return _vm._t("date",null,null,data)}}],null,true)})],1),(_vm.timePicker && _vm.end)?_c('calendar-time',{attrs:{"miniute-increment":_vm.timePickerIncrement,"hour24":_vm.timePicker24Hour,"second-picker":_vm.timePickerSeconds,"current-time":_vm.end,"readonly":_vm.readonly},on:{"update":_vm.onUpdateEndTime}}):_vm._e()],1):_vm._e()]):_vm._e()],2),_vm._t("footer",function(){return [(!_vm.autoApply)?_c('div',{staticClass:"drp-buttons"},[(_vm.showCalendars)?_c('span',{staticClass:"drp-selected"},[_vm._v(_vm._s(_vm.rangeText))]):_vm._e(),(!_vm.readonly)?_c('button',{staticClass:"cancelBtn btn btn-sm btn-secondary",attrs:{"type":"button"},on:{"click":_vm.clickCancel}},[_vm._v(_vm._s(_vm.locale.cancelLabel)+" ")]):_vm._e(),(!_vm.readonly)?_c('button',{staticClass:"applyBtn btn btn-sm btn-success",attrs:{"disabled":_vm.in_selection,"type":"button"},on:{"click":_vm.clickedApply}},[_vm._v(_vm._s(_vm.locale.applyLabel)+" ")]):_vm._e()]):_vm._e()]},{"rangeText":_vm.rangeText,"locale":_vm.locale,"clickCancel":_vm.clickCancel,"clickApply":_vm.clickedApply,"in_selection":_vm.in_selection,"autoApply":_vm.autoApply})],2):_vm._e()])],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/DateRangePicker.vue?vue&type=template&id=2c37e05c&scoped=true&
+// CONCATENATED MODULE: ./src/components/DateRangePicker.vue?vue&type=template&id=0dcaa76b&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/typeof.js
 var esm_typeof = __webpack_require__("53ca");
@@ -6472,7 +6472,7 @@ var CalendarRanges_component = normalizeComponent(
      */
     alwaysShowRanges: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   data: function data() {
@@ -6878,8 +6878,8 @@ var CalendarRanges_component = normalizeComponent(
 // EXTERNAL MODULE: ./src/components/DateRangePicker.vue?vue&type=style&index=0&lang=scss&
 var DateRangePickervue_type_style_index_0_lang_scss_ = __webpack_require__("0e58");
 
-// EXTERNAL MODULE: ./src/components/DateRangePicker.vue?vue&type=style&index=1&id=2c37e05c&lang=scss&scoped=true&
-var DateRangePickervue_type_style_index_1_id_2c37e05c_lang_scss_scoped_true_ = __webpack_require__("9177");
+// EXTERNAL MODULE: ./src/components/DateRangePicker.vue?vue&type=style&index=1&id=0dcaa76b&lang=scss&scoped=true&
+var DateRangePickervue_type_style_index_1_id_0dcaa76b_lang_scss_scoped_true_ = __webpack_require__("6767");
 
 // CONCATENATED MODULE: ./src/components/DateRangePicker.vue
 
@@ -6897,7 +6897,7 @@ var DateRangePicker_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "2c37e05c",
+  "0dcaa76b",
   null
   
 )

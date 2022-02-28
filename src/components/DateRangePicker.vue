@@ -457,7 +457,7 @@ export default {
      */
     alwaysShowRanges: {
       type: Boolean,
-      default: false
+      default: true
     },
   },
   data () {
